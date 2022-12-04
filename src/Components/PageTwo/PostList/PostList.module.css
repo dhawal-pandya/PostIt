@@ -1,0 +1,25 @@
+.postList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.postList > p {
+  margin: 1vh;
+  background: #14161a;
+  text-align: center;
+  padding: 2vh;
+}
+
+.tableHeader {
+  padding-top: 3vh;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-weight: 400;
+  font-size: 3vh;
+}
+
+.tableHeader > p {
+  margin: 1vh;
+  background: #14161a;
+}

@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.labels {
+  font-weight: 100;
+  font-size: 3vh;
+  margin-top: 2vh;
+}
+
+.inputs {
+  width: 30%;
+  margin: auto;
+  height: 3vh;
+  margin-bottom: 2%;
+}
+
+.signInButton {
+  padding: 1vh;
+  font-size: 2vh;
+  width: 30%;
+  margin: auto;
+}

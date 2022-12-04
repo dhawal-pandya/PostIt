@@ -1,0 +1,43 @@
+.title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.form > div {
+  display: flex;
+}
+
+.labels {
+  width: 20%;
+  font-weight: 100;
+  font-size: 3vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 2vh;
+}
+
+.inputs {
+  width: 50%;
+  margin-right: 5%;
+  height: 3vh;
+  margin-bottom: 4vh;
+}
+
+.postBody {
+  height: 10vh;
+  overflow: auto;
+  resize: horizontal;
+}
+
+.createPostButton {
+  padding: 1vh;
+  font-size: 2vh;
+  width: 30%;
+  margin: auto;
+  /* height: 2vh; */
+}
